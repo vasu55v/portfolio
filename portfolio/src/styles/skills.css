@@ -1,0 +1,152 @@
+.skills_title{
+    color: #dadada;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 60px;
+}
+
+.django_icon{
+    color: #dadada;
+    font-size:60px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.django_r_icon{
+    color: #dadada;
+    font-size:30px;
+    padding-top: 30px;
+}
+
+.col{
+    color: #dadada;
+    transition: 0.5s;
+}
+
+.row .html:hover{
+    color: rgba(255, 68, 0, 0.745);
+}
+
+.row .css:hover{
+    color:rgb(0, 60, 255);
+}
+
+.row .boot:hover{
+    color:rgb(254, 74, 242);
+}
+
+.row .js:hover{
+    color:yellow;
+}
+
+.row .py:hover{
+    color:rgb(5, 220, 5);
+    /* background: linear-gradient(16deg,blue,red); */
+}
+
+.django_icon:hover{
+    color:rgb(2, 66, 2);
+}
+
+.django_r_icon:hover{
+  color: rgb(255, 0, 0);
+}
+
+.row .react:hover{
+    color:rgb(0, 225, 255);
+}
+
+
+.c_plus_plus{
+    color: #dadada;
+    font-size:90px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.json{
+    color: #dadada;
+    font-size:90px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.data_base{
+    padding-top: 30px;
+}
+
+.data_base:hover{
+    color: #fff;
+}
+
+.c_plus_plus:hover{
+    color: rgb(1, 47, 85);
+}
+
+.json:hover{
+    color: #cdff71;
+}
+
+.jwt_token{
+    color: #dadada;
+    font-size:60px;
+    padding-top: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jwt_token:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1050px) {
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    
+    .skills_title{
+        color: #dadada;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .json{
+        font-size: 50px;
+    }
+
+    .jwt_token{
+        font-size:30px;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .c_plus_plus{
+        font-size:50px;
+    }
+
+    .django_icon{
+        font-size:50px;
+        padding-top: 20px;
+    }
+    
+}
