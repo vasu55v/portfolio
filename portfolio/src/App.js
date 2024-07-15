@@ -8,10 +8,10 @@ import Education from "./components/Education";
 function App() {
   return (
     <div>
-       <div className="block">
+       <div>
         <Navbar />
         </div>
-        <div className="block">
+        <div>
         <Header />
         </div>
         <div className="block">
